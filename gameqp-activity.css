@@ -171,7 +171,7 @@
 	border: none;
 	overflow-y: auto;
 	padding-right: 0.7em;
-	z-index: 99999;
+	z-index: 10001;
 }
 
 .gameQP-Protector {
@@ -376,6 +376,7 @@
 	height: 1.7em;
 	width: 1.7em;
 }
+
 .gameQP-CodeAccessDiv {
 	padding: 1.5em 0.5em 1.5em 0.5em;
 	margin: 5em auto;
@@ -385,6 +386,7 @@
 	border-radius: 0.5em;
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.20), 0 3px 6px 0 rgba(0, 0, 0, 0.19);
 }
+
 .gameQP-MessageCodeAccessE {
 	text-align: center;
 	vertical-align: middle;
@@ -693,6 +695,7 @@ input.gameQP-VideoIntroClose:hover{
 .gameQP-BottonContainerDivEnd {
 	justify-content: flex-end;
 }
+
 /* Modo Pizarra digital */
 .gameQP-DivModeBoard{
     margin-top: .8em;
@@ -744,6 +747,7 @@ a.gameQP-ModeBoard:active, a.gameQP-ModeBoardShow:active{
     color: #000;
     border-color: #444;
 }
+
 a.gameQP-ModeBoardShow {
     position: absolute;
     bottom: 0;
@@ -922,6 +926,7 @@ a.gameQP-ModeBoardShow {
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
 }
+
 
 /* Puntuacion */
 
