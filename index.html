@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
 <link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_effects.css" />
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
@@ -13,6 +14,7 @@
 <meta name="description" content="Este es un tema del sistema solar para niños de 6to grado" />
 <!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
 <script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_effects.js"></script>
 <script type="text/javascript" src="common_i18n.js"></script>
 <script type="text/javascript" src="common.js"></script>
 <link rel="stylesheet" type="text/css" href="udl-content.css" />
@@ -26,33 +28,37 @@
 <nav id="siteNav">
 <ul>
    <li id="active"><a href="index.html" class="active daddy main-node">EL SISTEMA SOLAR</a></li>
-   <li><a href="presentacin_grupo_4.html" class="no-ch">Presentación grupo #4</a></li>
-   <li><a href="que_conozco_del_sistema_solar.html" class="no-ch">¿Que conozco del Sistema Solar?</a></li>
-   <li><a href="sistema_solar.html" class="no-ch">Sistema Solar</a></li>
-   <li><a href="planetas.html" class="no-ch">PLANETAS</a></li>
-   <li><a href="juego_memoria_planetas.html" class="no-ch">JUEGO MEMORIA PLANETAS</a></li>
-   <li><a href="descubre_sobre_los_planetas.html" class="no-ch">Descubre sobre los planetas</a></li>
-   <li><a href="el_sol_como_estrella_central.html" class="no-ch">EL SOL COMO ESTRELLA CENTRAL</a></li>
-   <li><a href="el_planeta_tierra.html" class="daddy">El Planeta Tierra</a>
+   <li><a href="presentacin_grupo_4.html" class="no-ch">Presentación Grupo #4</a></li>
+   <li><a href="11_el_sistema_solar.html" class="no-ch">1.1 El Sistema Solar</a></li>
+   <li><a href="12_que_conozco_del_sistema_solar.html" class="no-ch">1.2 ¿Que conozco del Sistema Solar?</a></li>
+   <li><a href="13_sistema_solar.html" class="no-ch">1.3 Sistema Solar</a></li>
+   <li><a href="14_los_planetas_del_sistema_solar.html" class="daddy">1.4 Los planetas del Sistema Solar</a>
    <ul class="other-section">
-      <li><a href="quiz_sobre_el_planeta_tierra.html" class="no-ch">Quiz sobre el Planeta Tierra</a></li>
+      <li><a href="141_juego_de_memoria_de_los_planetas.html" class="no-ch">1.4.1 Juego de memoria de los planetas</a></li>
+      <li><a href="142_descubre_sobre_los_planetas__juego.html" class="no-ch">1.4.2 Descubre sobre los planetas (🕹 Juego)</a></li>
    </ul>
    </li>
-   <li><a href="movimiento_y_rbitas.html" class="daddy">Movimiento y Órbitas</a>
+   <li><a href="15_el_sol_como_estrella_central_del_sistema_solar.html" class="no-ch">1.5 El Sol como estrella Central del Sistema Solar</a></li>
+   <li><a href="16_el_planeta_tierra.html" class="daddy">1.6 El Planeta Tierra</a>
    <ul class="other-section">
-      <li><a href="rbitas_planetarias.html" class="no-ch">Órbitas planetarias</a></li>
-      <li><a href="rotacin_y_traslacin_de_la_tierra.html" class="daddy">Rotación y traslación de la Tierra</a>
+      <li><a href="161_quiz_sobre_el_planeta_tierra.html" class="no-ch">1.6.1 Quiz sobre el Planeta Tierra</a></li>
+   </ul>
+   </li>
+   <li><a href="17_movimiento_y_rbitas.html" class="daddy">1.7 Movimiento y Órbitas</a>
+   <ul class="other-section">
+      <li><a href="171_rbitas_planetarias.html" class="no-ch">1.7.1 Órbitas planetarias</a></li>
+      <li><a href="172_rotacin_y_traslacin_de_la_tierra.html" class="daddy">1.7.2 Rotación y traslación de la Tierra</a>
       <ul class="other-section">
-         <li><a href="rotacin_de_la_tierra.html" class="no-ch">Rotación de la Tierra</a></li>
-         <li><a href="traslacin_de_la_tierra.html" class="no-ch">Traslación de la Tierra</a></li>
+         <li><a href="1721_rotacin_de_la_tierra.html" class="no-ch">1.7.2.1 Rotación de la Tierra</a></li>
+         <li><a href="1722_traslacin_de_la_tierra.html" class="no-ch">1.7.2.2 Traslación de la Tierra</a></li>
       </ul>
       </li>
-      <li><a href="efectos_de_la_gravedad_en_el_sistema_solar.html" class="daddy">Efectos de la gravedad en el Sistema Solar</a>
+      <li><a href="173_efectos_de_la_gravedad_en_el_sistema_solar.html" class="daddy">1.7.3 Efectos de la gravedad en el Sistema Solar</a>
       <ul class="other-section">
-         <li><a href="juguemos_un_poco.html" class="no-ch">Juguemos un poco</a></li>
+         <li><a href="1731_juguemos_un_poco.html" class="no-ch">1.7.3.1 Juguemos un poco</a></li>
       </ul>
       </li>
-      <li><a href="evaluacin.html" class="no-ch">Evaluación</a></li>
+      <li><a href="174_evaluacin.html" class="no-ch">1.7.4 Evaluación</a></li>
    </ul>
    </li>
 </ul>
@@ -65,24 +71,92 @@
 <div id="main-wrapper">
 <section id="main">
 <header id="nodeDecoration"><h1 id="nodeTitle">EL SISTEMA SOLAR</h1></header>
-<article class="iDevice_wrapper UDLcontentIdevice em_iDevice" id="id4">
+<article class="iDevice_wrapper UDLcontentIdevice em_iDevice" id="id22">
 <div class="iDevice emphasis1" >
-<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Orientaciones</h1></header>
+<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Portada</h1></header>
 <div class="iDevice_inner">
 <div class="iDevice_content_wrapper">
-<div id="ta4_129_2" class="block iDevice_content">
-<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p><span style="font-size: 24pt;"><strong>INTRODUCCIÓN&nbsp;</strong></span><br><span style="font-size: 18pt;">¡Bienvenidos al emocionante mundo del sistema solar! Estamos encantados de presentarles este recurso, diseñado especialmente para ustedes, el cual los aventura a explorar nuestro sistema solar. A través de animaciones, videos y actividades interactivas, descubrirán los secretos de los planetas, las estrellas y mucho más. Prepárense para un viaje educativo inolvidable mientras desentrañan los misterios de nuestro universo. ¡Vamos a comenzar!</span></p>
-<figure class="exe-figure exe-image position-center" style="width: 800px;">
-<div class="figcaption header"><strong>Sistema Solar</strong></div>
-<img src="planetas-sistema-solar.png" alt="Sistema Solar, con los principales astros y nombres" title="Sistema Solar" width="800" height="480">
-<figcaption class="figcaption"><a href="https://www.etapainfantil.com/wp-content/uploads/2019/03/planetas-sistema-solar-700x420.png.webp" target="_blank" class="author" rel="noopener">https://www.etapainfantil.com/sistema-solar</a></figcaption>
-</figure></div><article class="exe-udlContent-content-audio js-hidden"><header class='exe-udlContent-alt-content-title'><h2>Audio</h2></header><figure class="exe-figure exe-media position-center" style="width: 300px;"><audio controls="controls" src="INTRODUCCION_Bienven.mp3" class="mediaelement"><a href="INTRODUCCION_Bienven.mp3">audio/mpeg</a></audio>
-<figcaption class="figcaption"><span class="author">propio</span>. <span class="title"><em>Audio Alternativo</em></span></figcaption>
-</figure><button class="exe-udlContent-alt-content-hide">Cerrar</button></article><article class="exe-udlContent-content-visual js-hidden"><header class='exe-udlContent-alt-content-title'><h2>Apoyo visual</h2></header><figure class="exe-figure exe-media position-center" style="width: 400px;"><video width="400" height="400" controls="controls" class="mediaelement" data-mce-fragment="1">
-<source src="sistema_solar_3D_Max.mp4" type="video/mp4"></video>
-<figcaption class="figcaption"><span class="author">Manset Studio</span>. <a href="https://www.youtube.com/watch?v=gtXgBCv4rRs" target="_blank" class="title" rel="noopener"><em>sistema solar 3D Max</em></a></figcaption>
-</figure>
-<button class="exe-udlContent-alt-content-hide">Cerrar</button></article></div></section></div>
+<div id="ta22_174_2" class="block iDevice_content">
+<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block"><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><div class="exe-fx exe-paginated">
+<h2>El Sistema Solar</h2>
+<h1>Objeto Virtual de Aprendizaje(OVA): Sistema Solar, para 6.º Grado de primaria</h1>
+<p><img src="portada_del_ovajpg.jpg" alt="" width="894" height="543"></p>
+<h2>Objetivo&nbsp;</h2>
+<div class="exe-layout-2-cols exe-layout-2-50-50 exe-clear">
+<div class="exe-col exe-col-1">
+<p><img src="7870854.png" alt="" width="512" height="512"></p>
+</div>
+<span style="font-size: 14pt;">El objetivo principal de este OVA es brindar a los estudiantes de 6to grado de primaria una experiencia educativa interactiva y envolvente sobre el Sistema Solar. Buscamos fomentar la comprensión profunda de los movimientos y órbitas de los cuerpos celestes, así como destacar la importancia de la Tierra en este vasto sistema. A través de contenido pedagógico claro, actividades estimulantes y recursos multimedia de calidad, aspiramos a inspirar la curiosidad científica, promoviendo el aprendizaje significativo y el desarrollo de habilidades críticas en el área de Ciencias Naturales.</span></div>
+<h2>Ficha Técnica&nbsp;</h2>
+<table border="1" style="width: 61.5216%; height: 625px;">
+<tbody>
+<tr style="height: 25px;">
+<td style="width: 25.1773%; height: 25px;">Título</td>
+<td style="width: 36.3451%; height: 25px;">Sistema Solar primaria</td>
+</tr>
+<tr style="height: 50px;">
+<td style="width: 25.1773%; height: 50px;">Autor y/o Editor</td>
+<td style="width: 36.3451%; height: 50px;">Docentes: Joel Rosario |Susan Fajardo |Ivelisse Del Rosario |Roldán López | Yenni Ramírez ***(Grupo #4)</td>
+</tr>
+<tr style="height: 50px;">
+<td style="width: 25.1773%; height: 50px;">Dirección web/ repositorio</td>
+<td style="width: 36.3451%; height: 50px;"><a href="https://necroliat.github.io/OVA_SIST_SOLAR_6TO_primaria/">https://necroliat.github.io/OVA_SIST_SOLAR_6TO_primaria/</a></td>
+</tr>
+<tr style="height: 50px;">
+<td style="width: 25.1773%; height: 50px;">Año de publicación</td>
+<td style="width: 36.3451%; height: 50px;">2023</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 25.1773%; height: 25px;">Materia/Módulo</td>
+<td style="width: 36.3451%; height: 25px;">Ciencias de la Naturaleza</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 25.1773%; height: 25px;">Nivel educativo</td>
+<td style="width: 36.3451%; height: 25px;">Nivel Primario - Segundo Ciclo</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 25.1773%; height: 25px;">Grado</td>
+<td style="width: 36.3451%; height: 25px;">6to. Grado</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 25.1773%; height: 25px;">Idioma</td>
+<td style="width: 36.3451%; height: 25px;">Español&nbsp;</td>
+</tr>
+<tr style="height: 50px;">
+<td style="width: 25.1773%; height: 50px;">Descripción General</td>
+<td style="width: 36.3451%; height: 50px;">– Análisis y discusión sobre los planetas del Sistema Solar<br>(y otros fuera del Sistema Solar) y sus características.<br>Expresión por medio de dibujos.<br>– Análisis, discusión (comparación, clasificación, descripción)<br>sobre la composición y estructura de la atmósfera del Sol,<br>así como el ciclo de las estrellas. Expresión por medio de<br>dibujos</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 25.1773%; height: 25px;">Objetivos</td>
+<td style="width: 36.3451%; height: 25px;">Comunica sus ideas e hipótesis de las observaciones y experimentos, usando y cuidando los sentidos e instrumentos para percibir,<br>recolectar, obtener y organizar datos e información en tablas y graficas elementales; mostrando y argumentado los resultados<br>de su trabajo de forma objetiva, sistemática y creativa en proyecto individual y colectivo de problemáticas de investigación o<br>innovación escolar y comunitaria en salud, nuestro sistema solar y la tierra, fenómenos naturales geológicos y astronómicos,<br>Medioambiente y sostenibilidad.</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 25.1773%; height: 25px;">Contenidos</td>
+<td style="width: 36.3451%; height: 25px;">Sistema y mecanismo<br>– El Sistema Solar.<br>– Origen de nuestro Sistema<br>Solar.<br>– La Vía Láctea</td>
+</tr>
+<tr style="height: 75px;">
+<td style="width: 25.1773%; height: 75px;">Tipo de aplicación multimedia</td>
+<td style="width: 36.3451%; height: 75px;">Recurso web, secuencial</td>
+</tr>
+<tr style="height: 50px;">
+<td style="width: 25.1773%; height: 50px;">nivel de control del alumno</td>
+<td style="width: 36.3451%; height: 50px;">Básico, navegación simple e intuitiva.</td>
+</tr>
+<tr style="height: 25px;">
+<td style="width: 25.1773%; height: 25px;">rol del profesor</td>
+<td style="width: 36.3451%; height: 25px;">ser facilitador, ser guía de forma asíncrona.</td>
+</tr>
+<tr style="height: 50px;">
+<td style="width: 25.1773%; height: 50px;">Sistema operativo</td>
+<td style="width: 36.3451%; height: 50px;">Windows, Linux, MacOS, Android, IOS</td>
+</tr>
+<tr style="height: 50px;">
+<td style="width: 25.1773%; height: 50px;">requisitos técnicos</td>
+<td style="width: 36.3451%; height: 50px;">Explorador Web, con compatibilidad con HTLM5 y CSS3 y JavaScript&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div></div></div></section></div>
 </div>
 </div>
 </div>
